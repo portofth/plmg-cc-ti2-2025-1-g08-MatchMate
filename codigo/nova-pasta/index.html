@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homeperso.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="barra.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="grafico.js" defer></script>
+    <link rel="stylesheet" href="grafico.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/">Matchmate</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="/">Tela inicial</a></li>
+                <li><a href="/">Procura</a></li>
+                <li><a href="/">Sobre nós</a></li>
+                <li><a href="/">login</a></li>
+                <li><a href="cadastro_jogo.html">Cadastrar um novo jogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Texto principal -->
+        <h1></h1>
+        
+        <!-- Seção do gráfico de pizza logo abaixo do título -->
+        <div class="grafico-container">
+            <h2></h2>
+            <p></p>
+            <canvas id="topJogosGrafico"></canvas>
+        </div>
+    </main>
+
+    <!-- Barra de pesquisa no centro da parte inferior -->
+    <div class="search-box">
+        <input class="search-txt" type="text" placeholder="Pesquise algum jogo">
+        <a class="search-bnt" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+    
+
+    <script src="mobil.js"></script>
+</body>
+</html>
