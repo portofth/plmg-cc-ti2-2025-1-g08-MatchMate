@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro de Jogos</h1>
+        <h1>Cadastro de Novos Jogos</h1>
         <form id="gameForm">
             <label for="gameName">Nome do Jogo:</label>
             <input type="text" id="gameName" name="gameName" required>
@@ -22,13 +22,17 @@
             <label for="platform">Plataforma:</label>
             <input type="text" id="platform" name="platform" required>
 
+            <label for="descricao">Descrição do jogo</label>
+            <input type="text" id = "descricao" name="descricao" required>
+
+
             <button type="button" id="submitButton">Cadastrar Jogo</button>
         </form>
 
-        <h2>Dados do Jogo (JSON)</h2>
+        <h2>jogos Pendentes</h2>
         <pre id="output"></pre>
     </div>
 
-    <script src="enviar_email.js"></script>
+    <script src="jogosSalvos.js"></script>
 </body>
 </html>
