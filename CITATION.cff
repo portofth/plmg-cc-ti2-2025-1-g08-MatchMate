@@ -1,30 +1,35 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Encontrar pessoas para jogar
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: dos Santos Dias
+    given-names: Gustavo Henrique
+  - family-names: Campos Bezerra
+    given-names: Paulo
+  - family-names: Miranda Pereira
+    given-names: Marcos Paulo
+  - family-names: Pires Vilaça
+    given-names: Arthur Monteiro
+  - family-names: Avancini Prates
+    given-names: Lincoln 
+  - family-names: Lobo Barbosa 
+    given-names: Vitor Luís 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Carneiro
+    given-names: Rommel Vieira
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Oliveira Caetano
+    given-names: João Carlos
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Freitas Diniz
+    given-names: Luciana Mara
 keywords:
-  - 
-  - 
+  - Pessoas
+  - Jogos Online 
+  - Jogos cooperativos
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
