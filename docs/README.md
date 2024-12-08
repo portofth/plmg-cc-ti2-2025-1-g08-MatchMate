@@ -223,15 +223,15 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 
 Esta seção apresenta as funcionalidades da solução.Info
 
-##### Funcionalidade 1 - login do perfil
+##### Funcionalidade 1 - grafico do top5 jogos
 
-permite o usuario entrar com a conta dele no site
+permite o usuario ver e analisar quais os jogos mais jogados atualmente
 
-* **Estrutura de dados:** [Contatos](#ti_ed_contatos)
+* **Estrutura de dados:** [Visualização](#ti_ed_contatos)
 * **Instruções de acesso:**
   * Abra o site e efetue o login
-  * Acesse o menu principal e escolha a opção Cadastros
-  * Em seguida, escolha a opção Contatos
+  * Acesse o menu principal e escolha
+   * centralizado na pagina o usuario ja consegue ver
 * **Tela da funcionalidade**:
 
 ![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
