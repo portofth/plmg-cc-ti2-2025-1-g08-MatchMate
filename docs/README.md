@@ -223,9 +223,9 @@ O vídeo a seguir traz uma apresentação do problema que a equipe está tratand
 
 Esta seção apresenta as funcionalidades da solução.Info
 
-##### Funcionalidade 1 - Cadastro de Contatos  EXEMPLO 
+##### Funcionalidade 1 - login do perfil
 
-Permite a inclusão, leitura, alteração e exclusão de contatos para o sistema
+permite o usuario entrar com a conta dele no site
 
 * **Estrutura de dados:** [Contatos](#ti_ed_contatos)
 * **Instruções de acesso:**
