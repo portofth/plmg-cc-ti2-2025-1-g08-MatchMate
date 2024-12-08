@@ -238,9 +238,9 @@ permite o usuario ver e analisar quais os jogos mais jogados atualmente
 
 
 >
-> Apresente cada uma das funcionalidades que a aplicação fornece tanto para os usuários quanto aos administradores da solução.
+
 >
-> Inclua, para cada funcionalidade, itens como: (1) titulos e descrição da funcionalidade; (2) Estrutura de dados associada; (3) o detalhe sobre as instruções de acesso e uso.
+
 
 ## Estruturas de Dados
 
@@ -263,20 +263,31 @@ Contatos da aplicação
   
 ```
 
-##### Estrutura de Dados - Usuários   EXEMPLO 
 
-Registro dos usuários do sistema utilizados para login e para o perfil do sistema
 
-```json
-  {
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    email: "admin@abc.com",
-    id: "eed55b91-45be-4f2c-81bc-7686135503f9",
-    login: "admin",
-    nome: "Administrador do Sistema",
-    senha: "123"
-  }
-```
+
+##### Funcionalidade 2 - cadastro de novos jogos
+
+permite o usuario solicitar algum novo jogo que ele ache interessante para o site
+
+* **Estrutura de dados:** [cadastro](#ti_ed_contatos)
+* **Instruções de acesso:**
+  * Abra o site e efetue o login
+  * Acesse o menu principal e aperte nas tres barras no canto superior direito
+   * clique em cadastrar novo jogo
+* **Tela da funcionalidade**:
+
+![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+
+
+
+
+
+
+
+
+
+
 
 
 >
