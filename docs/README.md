@@ -254,13 +254,30 @@ Contatos da aplicação
 
 ```json
   {
-    "id": 1,
-    "nome": "Leanne Graham",
-    "cidade": "Belo Horizonte",
-    "categoria": "amigos",
-    "email": "Sincere@april.biz",
-    "telefone": "1-770-736-8031",
-    "website": "hildegard.org"
+  "top5Jogos": [
+    {
+      "name": "PlayerUnknown’s Battlegrounds",
+      "playerCount": 100
+    },
+    {
+      "name": "Minecraft",
+      "playerCount": 95
+    },
+    {
+      "name": "Apex Legends",
+      "playerCount": 50
+    },
+    {
+      "name": "Fortnite",
+      "playerCount": 45
+    },
+    {
+      "name": "Counter-Strike: Global Offensive",
+      "playerCount": 35
+    }
+  ]
+}
+
   }
   
 ```
@@ -279,14 +296,22 @@ permite o usuario solicitar algum novo jogo que ele ache interessante para o sit
    * clique em cadastrar novo jogo
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](images/exemplo-funcionalidade.png)
+![Tela de Funcionalidade](![Editing ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar_docs_README md at master · ICEI-PUC-Minas-PMGCC-TI_ti-1-ppl-cc-m-20242-g2-encontrar-pessoas-para-jogar - Google Chrome 08_12_2024 23_04_50](https://github.com/user-attachments/assets/f674ea6b-2ea9-40b6-9a54-d496664e322a)
+)
 
+```json
+  {
+ "games": [
+    {
+      "id": "1",
+      "name": "Valorant",
+      "genre": "FPS (First-Person Shooter)",
+      "developer": "Riot Games",
+      "description": "Jogo de tiro em primeira pessoa baseado em personagens com habilidades
 
-
-
-
-
-
+  }
+  
+```
 
 
 
