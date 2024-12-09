@@ -1,0 +1,185 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "gxstax7",
+      "nome": "Gustavo",
+      "senha": "teste123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Casual", "Competitivo"],
+      "idade": 16
+    },
+    {
+      "id": 2,
+      "login": "paulocampos",
+      "nome": "Paulo",
+      "senha": "123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Competitivo"],
+      "idade": 16
+    },
+    {
+      "id": 3,
+      "login": "Victor10",
+      "nome": "Victor",
+      "senha": "123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Casual"],
+      "idade": 16
+    },
+    {
+      "id": 4,
+      "login": "rommelx",
+      "nome": "Rommel",
+      "senha": "123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Casual", "Competitivo"],
+      "idade": 29
+    },
+    {
+      "id": 5,
+      "login": "lu-y",
+      "nome": "Luciana",
+      "senha": "123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Competitivo"],
+      "idade": 29
+    },
+    {
+      "id": 6,
+      "login": "joaoz",
+      "nome": "Joao",
+      "senha": "123",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Casual"],
+      "idade": 29
+    },
+    {
+      "id": "a7207b0c-82fd-422e-a168-a8d0f6eb9b4a",
+      "login": "Teste",
+      "nome": "Testando",
+      "senha": "123",
+      "email": "aogmaosg",
+      "idade": 25
+    }
+  ],
+  "games": [
+    {
+      "id": "1",
+      "name": "Valorant",
+      "genre": "FPS (First-Person Shooter)",
+      "developer": "Riot Games",
+      "description": "Jogo de tiro em primeira pessoa baseado em personagens com habilidades únicas."
+    },
+    {
+      "id": "2",
+      "name": "CSGO",
+      "genre": "FPS (First-Person Shooter)",
+      "developer": "Valve",
+      "description": "Counter-Strike: Global Offensive é um jogo de tiro tático em primeira pessoa, focado em combate entre times."
+    },
+    {
+      "id": "3",
+      "name": "FIFA 25",
+      "genre": "Esportes",
+      "developer": "EA Sports",
+      "description": "Simulação de futebol com jogadores reais, equipes, ligas e modos de jogo variados."
+    },
+    {
+      "id": "4",
+      "name": "League of Legends",
+      "genre": "MOBA (Multiplayer Online Battle Arena)",
+      "developer": "Riot Games",
+      "description": "Um jogo de estratégia em equipe em que jogadores controlam campeões para batalhar em arenas."
+    },
+    {
+      "id": "5",
+      "name": "Roblox",
+      "genre": "Sandbox/Plataforma",
+      "developer": "Roblox Corporation",
+      "description": "Plataforma online onde usuários podem criar e jogar jogos desenvolvidos por outros usuários."
+    },
+    {
+      "id": "6",
+      "name": "Minecraft",
+      "genre": "Sandbox",
+      "developer": "Mojang Studios",
+      "description": "Um jogo de construção em um mundo aberto onde jogadores exploram, coletam recursos e criam estruturas."
+    },
+    {
+      "id": "7",
+      "name": "Dead by Daylight",
+      "genre": "Survival Horror",
+      "developer": "Behaviour Interactive",
+      "description": "Jogo de sobrevivência assimétrico em que quatro sobreviventes tentam escapar de um assassino."
+    }
+  ],
+  "top5Jogos": [
+    {
+      "name": "PlayerUnknown’s Battlegrounds",
+      "playerCount": 100
+    },
+    {
+      "name": "Minecraft",
+      "playerCount": 95
+    },
+    {
+      "name": "Apex Legends",
+      "playerCount": 50
+    },
+    {
+      "name": "Fortnite",
+      "playerCount": 45
+    },
+    {
+      "name": "Counter-Strike: Global Offensive",
+      "playerCount": 35
+    }
+  ],
+  "comentarioperfil": [
+    {
+      "id": 1,
+      "idautor": "Você",
+      "idreceptor": "Usuário",
+      "mensagem": "Excelente perfil!!"
+    },
+    {
+      "id": 2,
+      "idautor": "Você",
+      "idreceptor": "Usuário",
+      "mensagem": "Te mandei pedido de amizade na Epic, aceita lá dps :)"
+    }
+  ],
+  "contatos": [
+    {
+      "id": 1,
+      "nickDiscord": "",
+      "nickPlay": "user321",
+      "epic": "https://store.epicgames.com/pt-BR/",
+      "steam": "https://store.steampowered.com",
+      "xbox": ""
+    }
+  ],
+  "perfils": [
+    {
+      "id": 1,
+      "nome": "Nome do Usuário",
+      "bio": "Descrição breve do jogador",
+      "imagePath": "caminho/para/imagem.jpg",
+      "categorias": ["Casual", "Competitivo"]
+    },
+    {
+      "id": "b705",
+      "nome": "Marcos Paulo Miranda Pereira",
+      "bio": "Olá",
+      "imagePath": "https://via.placeholder.com/180?text=Foto+de+Perfil",
+      "categorias": ["Competitivo"]
+    }
+  ]
+}
