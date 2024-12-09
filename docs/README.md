@@ -234,7 +234,8 @@ permite o usuario ver e analisar quais os jogos mais jogados atualmente
    * centralizado na pagina o usuario ja consegue ver
 * **Tela da funcionalidade**:
 
-![Tela de Funcionalidade](![image](https://github.com/user-attachments/assets/d34abffe-67c9-4e63-aeb5-a135e4cc0293)
+![Tela de Funcionalidade](![projetoTI1 - Replit - Google Chrome 08_12_2024 23_02_07](https://github.com/user-attachments/assets/5c73c21a-c548-4413-bc80-3b160a1e40d8)
+)
 )
 
 
