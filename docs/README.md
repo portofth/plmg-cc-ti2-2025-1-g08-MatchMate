@@ -307,7 +307,7 @@ permite o usuario solicitar algum novo jogo que ele ache interessante para o sit
       "name": "Valorant",
       "genre": "FPS (First-Person Shooter)",
       "developer": "Riot Games",
-      "description": "Jogo de tiro em primeira pessoa baseado em personagens com habilidades
+      "description": "Jogo de tiro em primeira pessoa baseado em personagens com habilidades"
 
   }
   
