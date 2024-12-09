@@ -211,7 +211,7 @@ Esta seção apresenta todos os detalhes da solução criada no projeto.
 
 O vídeo a seguir traz uma apresentação do problema que a equipe está tratando e a proposta de solução.  EXEMPLO 
 
-[![Vídeo do projeto](images/video.png)](https://www.youtube.com/embed/70gGoFyGeqQ)
+[![Vídeo do projeto](images/video.png)](https://www.youtube.com/watch?v=AVKrfhpzXWo)
 
 >  **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
