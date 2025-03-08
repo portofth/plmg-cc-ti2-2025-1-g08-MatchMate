@@ -2,32 +2,15 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 
 body {
   background-color: black; 
-  color: white; 
-  height: 92vh;
-  font-family: Arial, sans-serif;
-}
-
-
-header {
-  background-color: black; 
   color: white;
-  padding: 10px 0;
+  height: 92vh;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: black;
-  height: 8vh;
-}
 
 nav > a {
   color: white;
@@ -55,6 +38,15 @@ nav > a:hover {
   letter-spacing: 4px;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: black;
+  height: 8vh;
+}
+
 .nav-list {
   list-style: none;
   display: flex;
@@ -69,36 +61,34 @@ nav > a:hover {
 main {
   background-color: black; 
   height: 92vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .recomenda {
+  height: 700px;
   width: 80%;
-  max-width: 800px;
-  background-color: black; 
-  border: 1px solid white; 
+  background-color: black;
+  margin: 0 10%;
+  margin-top: 100px;
   border-radius: 10px;
+  padding: 20px;
+  border: 1px solid white; 
 }
 
 .recomenda h1 {
   text-align: center;
   color: white;
-  margin-bottom: 20px;
+  padding-top: 2%;
 }
 
 .recomenda p {
   text-align: center;
   color: white;
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .recomenda h2 {
   text-align: center;
   color: white;
-  margin-bottom: 20px;
 }
 
 
@@ -149,43 +139,10 @@ main {
   background-color: #c82333;
 }
 
-
-.form-group label {
-  color: white;
-  font-weight: bold;
+.solicitacao button.sair {
+  background-color: #dc3545; 
 }
 
-.form-group input,
-.form-group textarea,
-.form-group select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  margin-bottom: 15px;
-  background-color: #333; 
-  color: white; 
-}
-
-.form-group input:focus,
-.form-group textarea:focus,
-.form-group select:focus {
-  border-color: #007bff;
-  outline: none;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
+.solicitacao button.sair:hover {
+  background-color:  #c82333;
 }
