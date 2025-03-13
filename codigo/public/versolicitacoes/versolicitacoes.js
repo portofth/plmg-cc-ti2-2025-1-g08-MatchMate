@@ -34,7 +34,6 @@ const solicitacoes = [
 
 const usuarioLogado = { nome: "João", discord: "joao#1234" }; 
 
-
 function exibirMinhasSolicitacoes() {
     const container = document.getElementById("minhasSolicitacoes");
     container.innerHTML = "";
@@ -54,8 +53,12 @@ function exibirMinhasSolicitacoes() {
                 <p><strong>Estilo:</strong> ${solicitacao.estilo}</p>
                 <p><strong>Turno:</strong> ${solicitacao.turno}</p>
                 <p><strong>Plataforma:</strong> ${solicitacao.plataforma}</p>
-                <p><strong>Participantes:</strong> ${solicitacao.participantes.map(p => `${p.nome} (${p.discord})`).join(", ")}</p>
-                <p><strong>Vagas restantes:</strong> ${solicitacao.maxParticipantes - solicitacao.participantes.length}</p>
+                <p><strong>Participantes:</strong> ${solicitacao.participantes.map(p => `
+                    ${p.nome} (<i class="fab fa-discord" style="color: #5865F2; margin-right: 5px;"></i> <span style="color: #5865F2;">${p.discord}</span>)
+                `).join(", ")}</p>
+                <p><strong>Vagas restantes:</strong> <strong style="color: green;">${solicitacao.maxParticipantes - solicitacao.participantes.length}/${solicitacao.maxParticipantes}</strong></p>
+                <p style="color: red;"><strong>Observação:</strong> <strong>O anfitrião deve adicionar as pessoas no Discord para começar a jogar.</strong></p>
+                ${solicitacao.titulo === "Ranked no League of Legends" ? `<p style="color: red;"><strong>Observação adicional:</strong> <strong>Espere o anfitrião mandar mensagem no Discord.</strong></p>` : ''}
                 <button onclick="editarSolicitacao(${solicitacao.id})">Editar Grupo</button>
                 <button onclick="encerrarSolicitacao(${solicitacao.id})" class="encerrar">Encerrar Grupo</button>
             `;
@@ -63,7 +66,6 @@ function exibirMinhasSolicitacoes() {
         });
     }
 }
-
 
 function exibirSolicitacoesAceitas() {
     const container = document.getElementById("solicitacoesAceitas");
@@ -85,7 +87,11 @@ function exibirSolicitacoesAceitas() {
                 <p><strong>Turno:</strong> ${solicitacao.turno}</p>
                 <p><strong>Plataforma:</strong> ${solicitacao.plataforma}</p>
                 <p><strong>Criador:</strong> ${solicitacao.criador}</p>
-                <p><strong>Participantes:</strong> ${solicitacao.participantes.map(p => `${p.nome} (${p.discord})`).join(", ")}</p>
+                <p><strong>Participantes:</strong> ${solicitacao.participantes.map(p => `
+                    ${p.nome} (<i class="fab fa-discord" style="color: #5865F2; margin-right: 5px;"></i> <span style="color: #5865F2;">${p.discord}</span>)
+                `).join(", ")}</p>
+                <p><strong>Vagas restantes:</strong> <strong style="color: green;">${solicitacao.maxParticipantes - solicitacao.participantes.length}/${solicitacao.maxParticipantes}</strong></p>
+                ${solicitacao.titulo === "Ranked no League of Legends" ? `<p style="color: red;"><strong>Observação:</strong> <strong>Espere o anfitrião mandar pedido de amizade no Discord.</strong></p>` : ''}
                 <button onclick="sairDaSolicitacao(${solicitacao.id})" class="sair">Sair do Grupo</button>
             `;
             container.appendChild(div);
